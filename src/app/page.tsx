@@ -1,16 +1,24 @@
 import Box from "@/components/box/box";
+import { MotivationCard } from "@/components/motivation/motivation-card";
 
 const Home = () => {
   return (
-    <main className="mb-8">
-      <div className="max-w-screen-xl mx-auto py-3">
-        <h2 className="text-2xl font-bold tracking-tight text-slate-800">Welcome to WorkItOut 🎯</h2>
-        <p className="text-muted-foreground">
-          Simplify your task management with ease and efficiency.
-        </p>
+    <main className="mb-12">
+      <div className="bg-gradient-to-br from-orange-50 to-amber-50 border-b border-orange-100">
+        <div className="max-w-screen-xl mx-auto px-4 py-8">
+          <h2 className="text-3xl font-extrabold tracking-tight text-slate-800">
+            Welcome back to <span className="text-orange-500">WorkItOut</span> 🎯
+          </h2>
+          <p className="mt-1 text-base text-slate-500">
+            Simplify your task management with ease and efficiency.
+          </p>
+        </div>
       </div>
-      <div className="max-w-screen-xl mx-auto">
-        <Box />
+      <div className="max-w-screen-xl mx-auto px-4">
+        <MotivationCard />
+        <div className="mt-6">
+          <Box />
+        </div>
       </div>
     </main>
   );

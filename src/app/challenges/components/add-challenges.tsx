@@ -71,7 +71,7 @@ const AddChallenges = () => {
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="block p-3 md:flex gap-2 md:gap-10 justify-end items-end"
+          className="w-full grid grid-cols-1 md:grid-cols-4 gap-2 items-end p-3"
         >
           <FormField
             control={form.control}
