@@ -1,4 +1,4 @@
-# [WorkItOut](https://workitout.vercel.app) — Simplify Your Tasks and Challenges
+# [WorkItOut](https://workit-out.vercel.app) — Simplify Your Tasks and Challenges
 
 WorkItOut is your all-in-one productivity tool for managing tasks, tracking challenges, and staying motivated — all without ever signing up.
 
@@ -21,7 +21,7 @@ Built with Next.js, Tailwind CSS, and shadcn/ui for a clean, fast experience on 
 
 ## Getting Started
 
-Visit [workitout.vercel.app](https://workitout.vercel.app) — no installation or account needed.
+Visit [workit-out.vercel.app](https://workit-out.vercel.app) — no installation or account needed.
 
 ### Run Locally
 
@@ -40,22 +40,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - **Styling:** Tailwind CSS + shadcn/ui
 - **State / Storage:** React Context + localStorage
 - **Language:** TypeScript
-
-## Contributing
-
-1. Fork the repository.
-2. Create a branch for your feature or fix.
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes.
-   ```bash
-   git commit -m "Describe your change"
-   ```
-4. Push and open a pull request.
-   ```bash
-   git push origin feature/your-feature-name
-   ```
 
 ## License
 
